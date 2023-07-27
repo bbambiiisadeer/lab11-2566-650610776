@@ -91,7 +91,7 @@ export default function RegisFormPage() {
     }
 
     let genderOk = true;
-    if (gender !== "male" || gender !== "female") {
+    if (gender !== "male" && gender !== "female") {
       genderOk = false;
       setGenderError(true);
     }
